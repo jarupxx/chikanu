@@ -10,15 +10,15 @@ char *MP, *MPM, *MPS;
 int cnt, cnt2;
 FILE *fp;
 
-errexit(ac,4,"chikan v0.4b by Kana(kana@mikaka.org) \n\
+errexit(ac,4,"chikanu v0.4u by jarupxx\n\
 Usage: chikan targetfile beforestring afterstring\n\
 \n\
- /n   = LF 　　　　 /r   = CR\n\
- /s   = Space　　　 /t   = Tab\n\
- /m   = '>'　　　　 /h   = '<'\n\
- /q   = '?'　　　　 /a   = '*'\n\
- /d   = '$'　　　　 /=   = '~'\n\
- //   = '/'　　　　 /x** = Hexadecimal form\n\
+ /n   = LF          /r   = CR\n\
+ /s   = Space       /t   = Tab\n\
+ /m   = '>'         /h   = '<'\n\
+ /q   = '?'         /a   = '*'\n\
+ /d   = '$'         /=   = '~'\n\
+ //   = '/'         /x** = Hexadecimal form\n\
 \n");
 
 MPM=malloc(strlen(av[2]));openerr(MPM);
